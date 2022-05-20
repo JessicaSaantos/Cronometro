@@ -7,7 +7,7 @@ const day = 24 * hour
 let total;
 let dataFinal;
 let intervalId;
-let res = document.querySelector('h1')
+let res = document.querySelector('h1') 
 
 // ============= VERIFICANDO SE O TIMER JÁ ESTÁ RODANDO ===========================
 if (localStorage.getItem('timer')) {
@@ -19,7 +19,7 @@ if (localStorage.getItem('timer')) {
 function start() {
     const dataInput = document.querySelector("input").value
     dataFinal = new Date(dataInput).getTime()
-    localStorage.setItem("timer" , dataFinal) // mantendo os dados salvos no navegador
+    localStorage.setItem("timer" , dataFinal ) // mantendo os dados salvos no navegador
     // mesmo fechando a pgn
     
 
